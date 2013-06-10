@@ -25,7 +25,7 @@
 						if (is_dir(getcwd()."/cache/")
 						{
 					?>
-							<h2><?php echo getcwd() . "/cache/ exists!\n"  ?></h2>
+							<h2><?php echo getcwd() . "/cache/ exists!\n";  ?></h2>
 					<?php	
 						}	
 					?>
