@@ -19,15 +19,6 @@
                 <h2>Directory is:
 					<?php
 						echo getcwd() . "\n";
-						mkdir(getcwd()."/cache/");
-						mkdir(getcwd()."/cache/static/");
-						
-						if (is_dir(getcwd()."/cache/")
-						{
-					?>
-							<h2><?php echo getcwd() . "/cache/ exists!\n";  ?></h2>
-					<?php	
-						}	
 					?>
                 </h2>
                 <p>Your PHP application is now running on the host &ldquo;<?php echo gethostname(); ?>&rdquo; in your own dedicated environment in the AWS&nbsp;Cloud.</p>
