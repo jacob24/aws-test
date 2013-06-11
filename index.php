@@ -14,7 +14,7 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>Simple PHP App</h1>
+                <h1>Simple PHP App test 3</h1>
                 <h2>Congratulations!</h2>
                 <h2>Directory is:
 					<?php
